@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    background-image: url('../images/homebackground.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+nav {
+    position: fixed;
+    display: flex;
+    gap: 0;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+    border: none;
+    border-bottom: 4px solid rgb(26, 20, 30);
+    padding: 0%;
+}
+
+nav img {
+    background-color: white;
+    border-radius: 6px;
+}
+
+nav div {
+    display: flex;
+    gap: 0;
+}
+
+nav button {
+    width: 200px;
+    height: 74px;
+    background-color: transparent;
+    border: none;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    transition: linear 0.2s;
+}
+
+nav button:hover {
+    width: 200px;
+    height: 74px;
+    background-color: white;
+    border: none;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(26, 20, 30);
+    transition: linear 0.2s;
+}
+
+main {
+    z-index: -100;
+    position: relative;
+    width: 100%;
+    top: 200px;
+    margin-left: 140px;
+}
+
+main headline {
+    position: relative;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+    text-align: left;
+}
+
+main headline m {
+    position: relative;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    color: rgb(188, 120, 234);
+    text-align: left;
+}
+
+main p {
+    position: relative;
+    width: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-align: left;
+}
+
+main button {
+    position: relative;
+    width: fit-content;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    background-color: blueviolet;
+    border-radius: 8px;
+}
